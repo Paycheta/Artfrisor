@@ -9,7 +9,7 @@ const PORT = 3000;
 // Serve static files (CSS, images, etc.)
 app.use(express.static(path.join(__dirname, "public")));
 
-// Define the main route
+// Define the main route ...
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
