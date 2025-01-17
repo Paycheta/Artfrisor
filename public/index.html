@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtFrisør</title>
+    <!-- Add Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero">
+      <div>
+        <h1 class="display-3 fw-bold">Velkommen til ArtFrisør</h1>
+        <p class="lead">Håret ditt, vårt lerret.</p>
+        <a href="#services" class="btn btn-lg">Se Våre Tjenester</a>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">ArtFrisør</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Om Oss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Tjenester</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Galleri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="about-card row g-0 align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-6">
+              <img
+                src="images/image5.jpg"
+                class="img-fluid"
+                alt="Yosef Sori"
+                style="object-fit: cover; height: 100%"
+              />
+            </div>
+            <!-- Text Section -->
+            <div class="col-md-6 p-5">
+              <h2 class="fw-bold text-gold mb-4">Om Oss</h2>
+              <p class="lead">
+                Hos ArtFrisør tror vi at hver frisyre forteller en historie. La
+                oss skape din.
+              </p>
+              <p>
+                ArtFrisør drives av Yosef Sori – en talentfull kunstmaler og
+                frisør med over 20 års erfaring i Moss. Hans lidenskap for både
+                hår og kunst gjenspeiles i alt han gjør.
+              </p>
+              <p>
+                Yosef har malt med olje og akryl i snart 45 år, og hans kunst
+                har vært utstilt i 12 byer. Salongen vår, nær Rygge Storsenter,
+                inkluderer også et kunstgalleri der besøkende kan oppleve og
+                kjøpe hans verk.
+              </p>
+              <p class="fw-bold text-gold">
+                Velkommen til en unik opplevelse der kunst og frisering møtes!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-4">Våre Tjenester</h2>
+        <div class="row g-4">
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <h4>Hårklipp</h4>
+              <p>Presisjonsklipp for enhver stil.</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <h4>Styling</h4>
+              <p>Perfekt styling for spesielle anledninger.</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <h4>Farging</h4>
+              <p>Moderne og kreative hårfarger.</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <h4>Extensions</h4>
+              <p>Skap volum og lengde med naturlige extensions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold">Galleri</h2>
+        <p>Ta en titt på noen av våre kreasjoner:</p>
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="images/gallery1.jpg"
+              class="img-fluid rounded shadow"
+              alt="Galleri Bilde 1"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/gallery2.jpg"
+              class="img-fluid rounded shadow"
+              alt="Galleri Bilde 2"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/gallery3.jpg"
+              class="img-fluid rounded shadow"
+              alt="Galleri Bilde 3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="art-gallery" class="py-5 bg-dark text-white">
+        <div class="container">
+          <h2 class="fw-bold text-center mb-4 text-gold">Kunstgalleri</h2>
+          <p class="text-center mb-5">
+            Oppdag Yosef Sori sine mesterverk – unike malerier som er tilgjengelige for visning og kjøp.
+          </p>
+          <div class="row g-4">
+            <!-- Painting 1 -->
+            <div class="col-md-4">
+              <div class="art-card">
+                <img
+                  src="images/painting1.jpg"
+                  class="img-fluid rounded shadow"
+                  alt="Painting 1"
+                />
+                <p class="mt-2 text-center">"Tittel på maleriet 1"</p>
+              </div>
+            </div>
+            <!-- Painting 2 -->
+            <div class="col-md-4">
+              <div class="art-card">
+                <img
+                  src="images/painting2.jpg"
+                  class="img-fluid rounded shadow"
+                  alt="Painting 2"
+                />
+                <p class="mt-2 text-center">"Tittel på maleriet 2"</p>
+              </div>
+            </div>
+            <!-- Painting 3 -->
+            <div class="col-md-4">
+              <div class="art-card">
+                <img
+                  src="images/painting3.jpg"
+                  class="img-fluid rounded shadow"
+                  alt="Painting 3"
+                />
+                <p class="mt-2 text-center">"Tittel på maleriet 3"</p>
+              </div>
+            </div>
+            <!-- Painting 4 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting4.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 4"</p>
+                </div>
+              </div>
+              <!-- Painting 5 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting5.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 5"</p>
+                </div>
+              </div>
+              <!-- Painting 6 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting6.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 6"</p>
+                </div>
+              </div>
+              <!-- Painting 7 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting7.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 7"</p>
+                </div>
+              </div>
+              <!-- Painting 8 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting8.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 8"</p>
+                </div>
+              </div>
+              <!-- Painting 9 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting9.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 9"</p>
+                </div>
+              </div>
+              <!-- Painting 10 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting10.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 10"</p>
+                </div>
+              </div>
+              <!-- Painting 11 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting11.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 11"</p>
+                </div>
+              </div>
+              <!-- Painting 12 -->
+            <div class="col-md-4">
+                <div class="art-card">
+                  <img
+                    src="images/painting12.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Painting 3"
+                  />
+                  <p class="mt-2 text-center">"Tittel på maleriet 12"</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="fw-bold">Kontakt Oss</h2>
+        <p>Bestill time eller ta kontakt med oss:</p>
+        <p>Telefon: +47 123 45 678</p>
+        <p>E-post: info@artfrisor.com</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-secondary text-white">
+      <p>&copy; 2025 ArtFrisør. Alle rettigheter forbeholdt.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
